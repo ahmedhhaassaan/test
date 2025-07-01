@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>sing up</title>
+</head>
+
+<body>
+<div class="container mycon m-auto mt-5 p-5">
+  <h1 class="text-center myh1">Smart Login System</h1>
+
+<input id="name" oninput="validName()"  class="form-control mt-4 mb-4 myinput text-white" type="text" placeholder="inter your name">
+<p id="alertMassage" class="text-danger d-none">thes input must start to 1 char kabital and 2 char sall</p>
+
+
+<input id="email" oninput="validEmail()" class="form-control mt-4 mb-4 myinput text-white" type="email" placeholder="inter your email">
+<p id="wrapMassage"  class="text-danger d-none">Email already exists. Try again.</p> 
+
+
+<input id="password" oninput="validPassword()" class="form-control mt-4 mb-4 myinput text-white" type="password" placeholder="inter your password">
+<p id="massage" class="alert alert-danger d-none" > this input must be 4 enteger</p>
+
+
+
+<button id="buttonn" class="btn  w-100 mb-4 myinput mybtn" type="button">Button</button>
+
+<p class="text-center text-white">Don’t have an account? <a href="./singin.html" class="text-white">Sign In</a></p>
+</div>
+
+
+    <script src="../is/singup.js"></script>
+</body>
+</html>
